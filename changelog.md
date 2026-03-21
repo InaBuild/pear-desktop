@@ -2,7 +2,30 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [v3.11.4](https://github.com/ArjixWasTaken/pear-desktop/compare/v3.11.3...v3.11.4)
+
+- Fixed downloader by updating Youtubei.js dependency. [`#9`](https://github.com/ArjixWasTaken/pear-desktop/pull/9)
+- doc: installation instructions for Solus [`#4352`](https://github.com/ArjixWasTaken/pear-desktop/pull/4352)
+- chore(deps): update eslint monorepo to v9.39.3 [`#4337`](https://github.com/ArjixWasTaken/pear-desktop/pull/4337)
+- fix(deps): update dependency @hono/zod-openapi to v1.2.2 [`#4338`](https://github.com/ArjixWasTaken/pear-desktop/pull/4338)
+- chore(deps): update actions/checkout action to v6 [`#4293`](https://github.com/ArjixWasTaken/pear-desktop/pull/4293)
+- chore(deps): update actions/upload-artifact action to v6 [`#4294`](https://github.com/ArjixWasTaken/pear-desktop/pull/4294)
+- chore(deps): update dependency @playwright/test to v1.58.2 [`#4335`](https://github.com/ArjixWasTaken/pear-desktop/pull/4335)
+- chore(deps): update dependency glob to v13.0.6 [`#4298`](https://github.com/ArjixWasTaken/pear-desktop/pull/4298)
+- chore(deps): update dependency discord-api-types to v0.38.40 [`#4336`](https://github.com/ArjixWasTaken/pear-desktop/pull/4336)
+- chore(deps): update stefanzweifel/git-auto-commit-action action to v7 [`#4302`](https://github.com/ArjixWasTaken/pear-desktop/pull/4302)
+- fix(deps): update dependency conf to v15.1.0 [`#4303`](https://github.com/ArjixWasTaken/pear-desktop/pull/4303)
+- fix(deps): update dependency semver to v7.7.4 [`#4306`](https://github.com/ArjixWasTaken/pear-desktop/pull/4306)
+- chore(deps): update dependency @electron-toolkit/tsconfig to v2 [`#4301`](https://github.com/ArjixWasTaken/pear-desktop/pull/4301)
+- fix(deps): update dependency i18next to v25.8.13 [`#4290`](https://github.com/ArjixWasTaken/pear-desktop/pull/4290)
+- fix(deps): update dependency hono to v4.11.10 [security] [`#4331`](https://github.com/ArjixWasTaken/pear-desktop/pull/4331)
+- chore: bump version [`3c78e6f`](https://github.com/ArjixWasTaken/pear-desktop/commit/3c78e6faccbf4d171842bd31f56f4a7c03813667)
+- Merge pull request #3 from ArjixWasTaken/upstream [`e0ffb8f`](https://github.com/ArjixWasTaken/pear-desktop/commit/e0ffb8f48b9eff125303756e31820c92899092c0)
+- chore(i18n): Translated using Weblate (Lithuanian) [`4e6d9ba`](https://github.com/ArjixWasTaken/pear-desktop/commit/4e6d9ba017cd866dc0e6d77d0b2f7e01a8ab6501)
+
 #### [v3.11.3](https://github.com/ArjixWasTaken/pear-desktop/compare/v3.11.2...v3.11.3)
+
+> 19 February 2026
 
 - [chore]: sync with upstream [`#2`](https://github.com/ArjixWasTaken/pear-desktop/pull/2)
 - feat(synced-lyrics): Add Simplified/Traditional Chinese converter and improve Romanization to display tone [`#4111`](https://github.com/ArjixWasTaken/pear-desktop/pull/4111)
