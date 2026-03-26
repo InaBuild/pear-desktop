@@ -30,7 +30,7 @@ jobs:
           git fetch upstream
 
           git checkout -B upstream upstream/master
-          git rebase origin/master
+          git merge origin/master
           git push origin upstream --force
 
       - name: Create or update Pull Request
