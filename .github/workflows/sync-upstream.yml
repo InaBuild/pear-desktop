@@ -28,12 +28,9 @@ jobs:
         run: |
           git remote add upstream https://github.com/pear-devs/pear-desktop
           git fetch upstream
+
           git checkout -B upstream upstream/master
-          
-          # Overwrite .github from master to avoid workflow permission errors
-          git checkout master -- .github
-          git commit -m "chore: overwrite .github with master configuration" || echo "No changes to .github"
-          
+          git rebase origin/master
           git push origin upstream --force
 
       - name: Create or update Pull Request
