@@ -28,9 +28,7 @@ jobs:
         run: |
           git remote add upstream https://github.com/pear-devs/pear-desktop
           git fetch upstream
-
-          git checkout -B upstream upstream/master
-          git merge origin/master
+          git merge upstream/master
           git push origin upstream --force
 
       - name: Create or update Pull Request
